@@ -1,3 +1,26 @@
+<!-- frontend/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bus Ticket Booking</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="booking-form">
+        <h1>Bus Ticket Booking</h1>
+        <form id="bookingForm" action="bus-list.html">
+            <label>Origin:</label>
+            <input type="text" id="origin" name="origin" required>
+            <label>Destination:</label>
+            <input type="text" id="destination" name="destination" required>
+            <label>Travel Date:</label>
+            <input type="date" id="date" name="date" required>
+            <button type="submit">Search Buses</button>
+        </form>
+    </div>
+</body>
+</html>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,11 +38,11 @@
             <li><a href="#home">Home</a></li>
             <li class="dropdown">
                 <a href="#" onclick="toggleDropdown()">Ticket Booking</a>
-    <ul class="dropdown-menu" id="dropdownMenu">
-        <li><a href="busbooking.html">Buses</a></li>
-        <li><a href="#hotels">Hotels</a></li>
-        <li><a href="#tours">Tours</a></li>
-    </ul>
+                <ul class="dropdown-menu" id="dropdownMenu">
+                    <li><a href="bus.html">Buses</a></li>
+                    <li><a href="#hotels">Hotels</a></li>
+                    <li><a href="#tours">Tours</a></li>
+                </ul>
             </li>
             <li><a href="#contact">Contact Us</a></li>
             <li><a href="#previously-booked">Previously Booked Places</a></li>
@@ -40,34 +63,6 @@
         </div>
     </section>
 
-    <section id="buses">
-        <h2>Book Buses</h2>
-        <!-- Bus booking content -->
-    </section>
-
-    <section id="hotels">
-        <h2>Book Hotels</h2>
-        <!-- Hotel booking content -->
-    </section>
-
-    <section id="tours">
-        <h2>Book Tours</h2>
-        <!-- Tour booking content -->
-    </section>
-
-    <section id="previously-booked">
-        <h2>Previously Booked Places</h2>
-        <!-- Previously booked places content -->
-    </section>
-
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <!-- Contact form content -->
-    </section>
-
-    <section id="login">
-        <h2>Login</h2>
-        <!-- Login form content -->
-    </section>
+    <!-- Other sections like Hotels, Tours, etc. -->
 </body>
 </html>
