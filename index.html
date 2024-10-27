@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Booking Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">Travel Booking</div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li class="dropdown">
+                <a href="#" onclick="toggleDropdown()">Ticket Booking</a>
+    <ul class="dropdown-menu" id="dropdownMenu">
+        <li><a href="busbooking.html">Buses</a></li>
+        <li><a href="#hotels">Hotels</a></li>
+        <li><a href="#tours">Tours</a></li>
+    </ul>
+            </li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#previously-booked">Previously Booked Places</a></li>
+            <li><a href="#login">Login</a></li>
+        </ul>
+        <div class="hamburger" onclick="toggleNav()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Home Section with Background Image -->
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1>Welcome to Travel Booking</h1>
+            <p>Book your buses, hotels, and tours easily.</p>
+        </div>
+    </section>
+
+    <section id="buses">
+        <h2>Book Buses</h2>
+        <!-- Bus booking content -->
+    </section>
+
+    <section id="hotels">
+        <h2>Book Hotels</h2>
+        <!-- Hotel booking content -->
+    </section>
+
+    <section id="tours">
+        <h2>Book Tours</h2>
+        <!-- Tour booking content -->
+    </section>
+
+    <section id="previously-booked">
+        <h2>Previously Booked Places</h2>
+        <!-- Previously booked places content -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <!-- Contact form content -->
+    </section>
+
+    <section id="login">
+        <h2>Login</h2>
+        <!-- Login form content -->
+    </section>
+</body>
+</html>
