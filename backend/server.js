@@ -3,6 +3,8 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const busRoutes = require('./routes/busRoutes'); // Import bus routes
+const hotelRoutes = require('./routes/hotelRoutes');
+const tourRoutes = require('./routes/tourRoutes');
 
 const app = express();
 const PORT = 5000;
@@ -18,6 +20,8 @@ mongoose.connect('mongodb+srv://magendran:mage2005db@cluster0.tqn8b.mongodb.net/
 
 // Routes
 app.use('/api/buses', busRoutes);
+app.use('/api/hotels',hotelRoutes);
+app.use('/api/tours', tourRoutes);
 
 app.listen(PORT, () => {
     console.log(`Server running on http://localhost:${PORT}`);

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Available Hotels</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Travel Booking</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="hotel.html">Hotel Booking</a></li>
+        </ul>
+    </nav>
+
+    <section class="hotel-results">
+        <h2>Available Hotels</h2>
+        <div id="hotelList"></div>
+    </section>
+
+    <script>
+        async function searchHotels() {
+            const location = document.getElementById('location').value;
+            const guests = document.getElementById('guests').value;
+        
+            const response = await fetch(`http://localhost:5000/api/hotels/search?location=${location}&guests=${guests}`);
+            const hotels = await response.json();
+        
+            displayHotels(hotels);
+        }
+        
+        function displayHotels(hotels) {
+            const resultsDiv = document.getElementById('hotel-results');
+            resultsDiv.innerHTML = '';
+        
+            hotels.forEach(hotel => {
+                const hotelDiv = document.createElement('div');
+                hotelDiv.innerHTML = `
+                    <h3>${hotel.name}</h3>
+                    <p>Location: ${hotel.location}</p>
+                    <p>Price per Night: $${hotel.pricePerNight}</p>
+                    <p>Amenities: ${hotel.amenities.join(', ')}</p>
+                    <p>Available Rooms: ${hotel.availableRooms}</p>
+                `;
+                resultsDiv.appendChild(hotelDiv);
+            });
+        }
+        
+
+        function bookHotel(hotelId) {
+            alert(`Hotel with ID ${hotelId} booked successfully!`);
+        }
+
+        fetchHotels();
+    </script>
+</body>
+</html>

@@ -1,0 +1,241 @@
+/* Tour Booking Section */
+#tour-booking {
+    padding: 60px 20px;
+    background-color: #f3f6fa;
+    text-align: center;
+    color: #333;
+}
+
+.tour-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.tour-container h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+.section-description {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    color: #555;
+}
+
+/* Tour Booking Form */
+#tour-booking-form {
+    display: grid;
+    gap: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+}
+
+#tour-booking-form label {
+    font-size: 1em;
+    color: #333;
+    text-align: left;
+}
+
+#tour-booking-form input,
+#tour-booking-form select,
+#tour-booking-form button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+#tour-booking-form button {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#tour-booking-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Popular Tours Section */
+.popular-tours {
+    margin-top: 40px;
+}
+
+.popular-tours h3 {
+    font-size: 2em;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.tour-cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tour-card {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 280px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.tour-card:hover {
+    transform: translateY(-10px);
+}
+
+.tour-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.tour-details {
+    padding: 15px;
+}
+
+.tour-details h4 {
+    margin: 0;
+    color: #333;
+    font-size: 1.4em;
+}
+
+.tour-details p {
+    color: #777;
+    font-size: 1em;
+    margin-top: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .tour-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #tour-booking-form {
+        padding: 15px;
+    }
+}
+
+/* Tour Results Section */
+#tour-results {
+    padding: 60px 20px;
+    background-color: #f3f6fa;
+    text-align: center;
+    color: #333;
+}
+
+.results-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.results-container h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+.results-description {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    color: #555;
+}
+
+/* Tour Cards */
+.tour-cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tour-card {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 280px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.tour-card:hover {
+    transform: translateY(-10px);
+}
+
+.tour-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.tour-details {
+    padding: 15px;
+}
+
+.tour-details h4 {
+    margin: 0;
+    color: #333;
+    font-size: 1.4em;
+}
+
+.tour-details p {
+    color: #777;
+    font-size: 1em;
+    margin-top: 5px;
+}
+
+/* Booking Modal */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    text-align: center;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .tour-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+

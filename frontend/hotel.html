@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles_hotel.css">
+</head>
+<body>
+    <!-- Hotel Booking Section -->
+<section class="hotel-booking">
+    <h2>Find the Perfect Hotel for Your Stay</h2>
+    <p>Book your stay with ease and enjoy a comfortable, affordable experience!</p>
+    
+    <form class="booking-form" onsubmit="redirectToResults(event)">
+        <!-- Location Field -->
+        <div class="form-group">
+            <label for="location">Location:</label>
+            <div class="input-icon">
+                <input type="text" id="location" name="location" placeholder="Enter location" required>
+                <span class="icon">&#128205;</span> <!-- Map pin icon -->
+            </div>
+        </div>
+        
+        <!-- Check-in Date Field -->
+        <div class="form-group">
+            <label for="checkin-date">Check-in Date:</label>
+            <div class="input-icon">
+                <input type="date" id="checkin-date" name="checkin-date" required>
+                <span class="icon">&#128197;</span> <!-- Calendar icon -->
+            </div>
+        </div>
+        
+        <!-- Check-out Date Field -->
+        <div class="form-group">
+            <label for="checkout-date">Check-out Date:</label>
+            <div class="input-icon">
+                <input type="date" id="checkout-date" name="checkout-date" required>
+                <span class="icon">&#128197;</span> <!-- Calendar icon -->
+            </div>
+        </div>
+        
+        <!-- Guests Field -->
+        <div class="form-group">
+            <label for="guests">Guests:</label>
+            <div class="input-icon">
+                <input type="number" id="guests" name="guests" placeholder="Number of guests" min="1" required>
+                <span class="icon">&#128100;</span> <!-- User icon -->
+            </div>
+        </div>
+        
+        <!-- Submit Button -->
+        <button type="submit">Search Hotels</button>
+    </form>
+</section>
+
+        
+        <script>
+            function redirectToResults(event) {
+                event.preventDefault();
+                const location = document.getElementById('location').value;
+                const checkinDate = document.getElementById('checkin-date').value;
+                const checkoutDate = document.getElementById('checkout-date').value;
+                const guests = document.getElementById('guests').value;
+        
+                const url = `hotel-results.html?location=${location}&checkin-date=${checkinDate}&checkout-date=${checkoutDate}&guests=${guests}`;
+                window.location.href = url;
+            }
+        </script>
+        
+    </section>
+</body>
+</html>

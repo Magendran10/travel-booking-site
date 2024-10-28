@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Booking</title>
+    <link rel="stylesheet" href="css/styles_tour.css">
+</head>
+<body>
+<section id="tour-booking">
+    <div class="tour-container">
+        <h2>Book a Tour</h2>
+        <p class="section-description">Find and book your next adventure!</p>
+
+        <!-- Tour Booking Form -->
+        <form id="tour-booking-form" action="tour-list.html">
+            <label for="destination">Destination:</label>
+            <input type="text" id="destination" name="destination" placeholder="Enter destination" required>
+
+            <label for="start-date">Start Date:</label>
+            <input type="date" id="start-date" name="startDate" required>
+
+            <label for="end-date">End Date:</label>
+            <input type="date" id="end-date" name="endDate" required>
+
+            <label for="guests">Number of Guests:</label>
+            <input type="number" id="guests" name="guests" min="1" placeholder="Enter number of guests" required>
+
+            <label for="accommodation">Accommodation:</label>
+            <select id="accommodation" name="accommodation">
+                <option value="hotel">Hotel</option>
+                <option value="hostel">Hostel</option>
+                <option value="camping">Camping</option>
+                <option value="resort">Resort</option>
+            </select>
+
+            <button type="submit">Search Tours</button>
+        </form>
+
+        <!-- Display Popular Tours -->
+        <div class="popular-tours">
+            <h3>Popular Tours</h3>
+            <div class="tour-cards">
+                <!-- Example Tour Card -->
+                <div class="tour-card">
+                    <img src="images/tour1.jpg" alt="Tour Image 1">
+                    <div class="tour-details">
+                        <h4>Explore the Alps</h4>
+                        <p>7 Days | Starting from 9999</p>
+                    </div>
+                </div>
+
+                <div class="tour-card">
+                    <img src="images/tour2.jpg" alt="Tour Image 2">
+                    <div class="tour-details">
+                        <h4>Safari in Africa</h4>
+                        <p>10 Days | Starting from 10999</p>
+                    </div>
+                </div>
+
+                <div class="tour-card">
+                    <img src="images/tour3.jpg" alt="Tour Image 3">
+                    <div class="tour-details">
+                        <h4>Tokyo City Tour</h4>
+                        <p>5 Days | Starting from 5999</p>
+                    </div>
+                </div>
+                <!-- Add more tour cards as needed -->
+            </div>
+        </div>
+    </div>
+</section>
+</body>

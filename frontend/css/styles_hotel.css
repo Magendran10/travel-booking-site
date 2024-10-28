@@ -1,0 +1,49 @@
+/* Additional Styles for Improved Layout */
+
+/* Center description text */
+.hotel-booking p {
+    color: #666;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+/* Form Group Layout */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+/* Input with Icon Styling */
+.input-icon {
+    position: relative;
+}
+
+.input-icon input {
+    padding-left: 2.5rem; /* Space for the icon */
+}
+
+.input-icon .icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 1.2rem;
+    color: #888;
+}
+
+/* Button Hover Effect */
+.booking-form button {
+    background-color: #4c5b61;
+    color: #fff;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.booking-form button:hover {
+    background-color: #3b4a4f;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Booking</title>
+    <link rel="stylesheet" href="css/styles_tour.css">
+</head>
+<body>
+<section id="tour-results">
+    <div class="results-container">
+        <h2>Available Tours</h2>
+        <p class="results-description">Select a tour from the options below.</p>
+
+        <div class="tour-cards">
+            <!-- Example Tour Card -->
+            <div class="tour-card">
+                <img src="images/tour1.jpg" alt="Explore the Alps">
+                <div class="tour-details">
+                    <h4>Explore the Alps</h4>
+                    <p>7 Days | Starting from $999</p>
+                    <p>Location: Switzerland</p>
+                    <p>Description: Experience breathtaking views and adventure activities in the stunning Alps.</p>
+                    <button onclick="bookTour('Explore the Alps', 999)">Book Now</button>
+                </div>
+            </div>
+
+            <div class="tour-card">
+                <img src="images/tour2.jpg" alt="Safari in Africa">
+                <div class="tour-details">
+                    <h4>Safari in Africa</h4>
+                    <p>10 Days | Starting from $1999</p>
+                    <p>Location: Kenya</p>
+                    <p>Description: Explore the wildlife and landscapes of Africa on an unforgettable safari.</p>
+                    <button onclick="bookTour('Safari in Africa', 1999)">Book Now</button>
+                </div>
+            </div>
+
+            <div class="tour-card">
+                <img src="images/tour3.jpg" alt="Tokyo City Tour">
+                <div class="tour-details">
+                    <h4>Tokyo City Tour</h4>
+                    <p>5 Days | Starting from $799</p>
+                    <p>Location: Japan</p>
+                    <p>Description: Discover the vibrant culture and sights of Tokyo in this exciting city tour.</p>
+                    <button onclick="bookTour('Tokyo City Tour', 799)">Book Now</button>
+                </div>
+            </div>
+            <!-- Add more tour cards as needed -->
+        </div>
+    </div>
+</section>
+
+<!-- Booking Confirmation Modal -->
+<div id="booking-modal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <h2>Tour Booking Confirmation</h2>
+        <p id="modal-text"></p>
+        <button onclick="confirmBooking()">Confirm Booking</button>
+    </div>
+</div>
+</body>

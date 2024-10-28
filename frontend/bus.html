@@ -1,19 +1,48 @@
+<!-- frontend/index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bus Booking</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Bus Ticket Booking</title>
+    <link rel="stylesheet" href="css/styles_bus.css">
 </head>
 <body>
-    <nav class="navbar">
-        <a href="index.html">Home</a> | <a href="bus.html">Bus Booking</a>
-    </nav>
-
-    <section id="bus-booking">
-        <h2>Book a Bus</h2>
-        <!-- Bus booking form content -->
-    </section>
+    <div class="booking-form">
+        <h1>Book Your Bus Tickets</h1>
+        <p>Find and book your next trip with ease!</p>
+        
+        <form id="bookingForm" action="bus-list.html">
+            <!-- Origin Field -->
+            <div class="form-group">
+                <label for="origin">Origin:</label>
+                <div class="input-icon">
+                    <input type="text" id="origin" name="origin" placeholder="Enter origin" required>
+                    <span class="icon">&#128506;</span> <!-- Pin icon -->
+                </div>
+            </div>
+            
+            <!-- Destination Field -->
+            <div class="form-group">
+                <label for="destination">Destination:</label>
+                <div class="input-icon">
+                    <input type="text" id="destination" name="destination" placeholder="Enter destination" required>
+                    <span class="icon">&#128506;</span> <!-- Pin icon -->
+                </div>
+            </div>
+            
+            <!-- Travel Date Field -->
+            <div class="form-group">
+                <label for="date">Travel Date:</label>
+                <div class="input-icon">
+                    <input type="date" id="date" name="date" required>
+                    <span class="icon">&#128197;</span> <!-- Calendar icon -->
+                </div>
+            </div>
+            
+            <!-- Submit Button -->
+            <button type="submit">Search Buses</button>
+        </form>
+    </div>
 </body>
 </html>
