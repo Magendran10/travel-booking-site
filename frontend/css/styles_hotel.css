@@ -1,8 +1,25 @@
 /* Additional Styles for Improved Layout */
 
 /* Center description text */
+.hotel-booking{
+    background-image: url('C:/Users/HP/Documents/resume_projects/project_fl/frontend/img/bgr_1.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hotel-booking-text {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
 .hotel-booking p {
-    color: #666;
+    color: #060202;
     font-size: 1rem;
     text-align: center;
     margin-bottom: 1.5rem;
@@ -10,7 +27,8 @@
 
 /* Form Group Layout */
 .form-group {
-    margin-bottom: 1.5rem;
+    margin-bottom: auto;
+    width: 90%;
 }
 
 /* Input with Icon Styling */

@@ -1,0 +1,419 @@
+[
+    {
+        "name": "Island Escape",
+        "location": "Maldives",
+        "startDate": "2024-12-01",
+        "endDate": "2024-12-07",
+        "price": 1800,
+        "availableSpots": 20,
+        "description": "Relax on beautiful beaches and experience underwater adventures."
+    },
+    {
+        "name": "Mountain Retreat",
+        "location": "Switzerland",
+        "startDate": "2024-11-10",
+        "endDate": "2024-11-15",
+        "price": 2500,
+        "availableSpots": 15,
+        "description": "Enjoy the serene beauty of the Swiss Alps."
+    },
+    {
+        "name": "Safari Adventure",
+        "location": "Kenya",
+        "startDate": "2024-10-01",
+        "endDate": "2024-10-10",
+        "price": 1500,
+        "availableSpots": 30,
+        "description": "Explore the wilderness and witness the Big Five up close."
+    },
+    {
+        "name": "Desert Mystique",
+        "location": "Morocco",
+        "startDate": "2024-11-15",
+        "endDate": "2024-11-22",
+        "price": 900,
+        "availableSpots": 25,
+        "description": "Experience the unique charm of Moroccan deserts and souks."
+    },
+    {
+        "name": "City of Lights",
+        "location": "Paris",
+        "startDate": "2024-12-20",
+        "endDate": "2024-12-30",
+        "price": 1300,
+        "availableSpots": 40,
+        "description": "Discover the romantic city of Paris and its iconic landmarks."
+    },
+    {
+        "name": "Tropical Paradise",
+        "location": "Bali",
+        "startDate": "2024-09-05",
+        "endDate": "2024-09-15",
+        "price": 1200,
+        "availableSpots": 35,
+        "description": "Relax on Bali's beaches and explore its vibrant culture."
+    },
+    {
+        "name": "Great Wall Expedition",
+        "location": "China",
+        "startDate": "2024-10-15",
+        "endDate": "2024-10-25",
+        "price": 1400,
+        "availableSpots": 20,
+        "description": "Walk along the legendary Great Wall of China."
+    },
+    {
+        "name": "Northern Lights Adventure",
+        "location": "Iceland",
+        "startDate": "2024-12-05",
+        "endDate": "2024-12-12",
+        "price": 2100,
+        "availableSpots": 15,
+        "description": "Catch a glimpse of the magical Aurora Borealis."
+    },
+    {
+        "name": "Historic Rome",
+        "location": "Italy",
+        "startDate": "2024-09-20",
+        "endDate": "2024-09-30",
+        "price": 1600,
+        "availableSpots": 25,
+        "description": "Explore ancient ruins and art in Rome."
+    },
+    {
+        "name": "Amazon Rainforest",
+        "location": "Brazil",
+        "startDate": "2024-11-01",
+        "endDate": "2024-11-08",
+        "price": 1800,
+        "availableSpots": 30,
+        "description": "Discover the biodiversity of the Amazon."
+    },
+    {
+        "name": "Egyptian Wonders",
+        "location": "Egypt",
+        "startDate": "2024-10-20",
+        "endDate": "2024-10-27",
+        "price": 1500,
+        "availableSpots": 40,
+        "description": "Visit the Pyramids and other ancient sites."
+    },
+    {
+        "name": "Serene Japan",
+        "location": "Japan",
+        "startDate": "2024-11-20",
+        "endDate": "2024-11-30",
+        "price": 2200,
+        "availableSpots": 25,
+        "description": "Experience Japan's culture, cuisine, and landscapes."
+    },
+    {
+        "name": "Sydney Adventure",
+        "location": "Australia",
+        "startDate": "2024-09-01",
+        "endDate": "2024-09-10",
+        "price": 2000,
+        "availableSpots": 35,
+        "description": "Enjoy Sydney's beaches, landmarks, and city life."
+    },
+    {
+        "name": "Rocky Mountain Hike",
+        "location": "Canada",
+        "startDate": "2024-10-05",
+        "endDate": "2024-10-15",
+        "price": 1700,
+        "availableSpots": 15,
+        "description": "Explore the Rocky Mountains with guided hikes."
+    },
+    {
+        "name": "Historical Delhi",
+        "location": "India",
+        "startDate": "2024-12-01",
+        "endDate": "2024-12-08",
+        "price": 1100,
+        "availableSpots": 40,
+        "description": "Explore historical landmarks in Delhi."
+    },
+    {
+        "name": "Greek Isles",
+        "location": "Greece",
+        "startDate": "2024-08-25",
+        "endDate": "2024-09-02",
+        "price": 1500,
+        "availableSpots": 20,
+        "description": "Cruise through the beautiful Greek Islands."
+    },
+    {
+        "name": "Patagonia Trek",
+        "location": "Argentina",
+        "startDate": "2024-10-01",
+        "endDate": "2024-10-15",
+        "price": 2300,
+        "availableSpots": 10,
+        "description": "Challenge yourself with a trek through Patagonia."
+    },
+    {
+        "name": "Rio Carnival",
+        "location": "Brazil",
+        "startDate": "2024-02-21",
+        "endDate": "2024-02-26",
+        "price": 1600,
+        "availableSpots": 50,
+        "description": "Experience the vibrant Rio Carnival."
+    },
+    {
+        "name": "Amazon River Cruise",
+        "location": "Peru",
+        "startDate": "2024-03-10",
+        "endDate": "2024-03-17",
+        "price": 2400,
+        "availableSpots": 20,
+        "description": "Cruise along the mighty Amazon River."
+    },
+    {
+        "name": "New Zealand Adventure",
+        "location": "New Zealand",
+        "startDate": "2024-04-01",
+        "endDate": "2024-04-10",
+        "price": 2800,
+        "availableSpots": 30,
+        "description": "Explore the scenic beauty of New Zealand."
+    },
+    {
+        "name": "Paris & Provence",
+        "location": "France",
+        "startDate": "2024-05-05",
+        "endDate": "2024-05-15",
+        "price": 2200,
+        "availableSpots": 20,
+        "description": "Visit Paris and enjoy the charm of Provence."
+    },
+    {
+        "name": "South African Safari",
+        "location": "South Africa",
+        "startDate": "2024-06-10",
+        "endDate": "2024-06-20",
+        "price": 2500,
+        "availableSpots": 25,
+        "description": "Enjoy an authentic African safari experience."
+    },
+    {
+        "name": "Italian Culinary Tour",
+        "location": "Italy",
+        "startDate": "2024-07-15",
+        "endDate": "2024-07-25",
+        "price": 1900,
+        "availableSpots": 20,
+        "description": "Indulge in Italy’s finest culinary offerings."
+    },
+    {
+        "name": "Exploring Norway",
+        "location": "Norway",
+        "startDate": "2024-08-01",
+        "endDate": "2024-08-10",
+        "price": 2400,
+        "availableSpots": 10,
+        "description": "Cruise through the famous Norwegian fjords."
+    },
+    {
+        "name": "Hawaii Paradise",
+        "location": "Hawaii",
+        "startDate": "2024-12-01",
+        "endDate": "2024-12-08",
+        "price": 2000,
+        "availableSpots": 35,
+        "description": "Enjoy tropical beaches and volcano hikes in Hawaii."
+    },
+    {
+        "name": "Ireland Castle Tour",
+        "location": "Ireland",
+        "startDate": "2024-10-01",
+        "endDate": "2024-10-10",
+        "price": 2100,
+        "availableSpots": 15,
+        "description": "Stay in historic castles across Ireland."
+    },
+    
+    {
+            "name": "Alaskan Wilderness",
+            "location": "Alaska, USA",
+            "startDate": "2024-06-15",
+            "endDate": "2024-06-25",
+            "price": 2800,
+            "availableSpots": 18,
+            "description": "Discover Alaska’s stunning landscapes and diverse wildlife."
+        },
+        {
+            "name": "Cultural Kyoto",
+            "location": "Japan",
+            "startDate": "2024-09-10",
+            "endDate": "2024-09-17",
+            "price": 2300,
+            "availableSpots": 20,
+            "description": "Immerse yourself in the traditional temples and gardens of Kyoto."
+        },
+        {
+            "name": "Chilean Fjords Expedition",
+            "location": "Chile",
+            "startDate": "2024-11-05",
+            "endDate": "2024-11-14",
+            "price": 3200,
+            "availableSpots": 12,
+            "description": "Sail through Chile’s breathtaking fjords and explore glaciers."
+        },
+        {
+            "name": "Wild West Road Trip",
+            "location": "USA",
+            "startDate": "2024-07-20",
+            "endDate": "2024-07-30",
+            "price": 1900,
+            "availableSpots": 25,
+            "description": "Explore the iconic landscapes and national parks of the American West."
+        },
+        {
+            "name": "Dubai Desert Safari",
+            "location": "UAE",
+            "startDate": "2024-10-01",
+            "endDate": "2024-10-05",
+            "price": 900,
+            "availableSpots": 40,
+            "description": "Experience the thrill of desert safaris and luxurious city life in Dubai."
+        },
+        {
+            "name": "Cuban Culture & Beaches",
+            "location": "Cuba",
+            "startDate": "2024-05-12",
+            "endDate": "2024-05-20",
+            "price": 1500,
+            "availableSpots": 30,
+            "description": "Dive into Cuban culture, music, and stunning beaches."
+        },
+        {
+            "name": "Rainforest Exploration",
+            "location": "Costa Rica",
+            "startDate": "2024-11-18",
+            "endDate": "2024-11-25",
+            "price": 1700,
+            "availableSpots": 15,
+            "description": "Immerse yourself in the lush rainforests and biodiversity of Costa Rica."
+        },
+        {
+            "name": "Taj Mahal & Agra Tour",
+            "location": "India",
+            "startDate": "2024-12-10",
+            "endDate": "2024-12-15",
+            "price": 1200,
+            "availableSpots": 40,
+            "description": "Witness the grandeur of the Taj Mahal and other historic sites."
+        },
+        {
+            "name": "Southern Lights Expedition",
+            "location": "New Zealand",
+            "startDate": "2024-06-01",
+            "endDate": "2024-06-07",
+            "price": 2500,
+            "availableSpots": 12,
+            "description": "Catch the rare Southern Lights in the stunning landscapes of New Zealand."
+        },
+        {
+            "name": "Swiss Christmas Markets",
+            "location": "Switzerland",
+            "startDate": "2024-12-15",
+            "endDate": "2024-12-20",
+            "price": 1400,
+            "availableSpots": 30,
+            "description": "Explore the magical Christmas markets of Switzerland."
+        },
+        {
+            "name": "Thailand Beaches & Temples",
+            "location": "Thailand",
+            "startDate": "2024-08-05",
+            "endDate": "2024-08-12",
+            "price": 1100,
+            "availableSpots": 35,
+            "description": "Relax on beautiful beaches and visit iconic temples in Thailand."
+        },
+        {
+            "name": "Ecuador and Galapagos Islands",
+            "location": "Ecuador",
+            "startDate": "2024-07-10",
+            "endDate": "2024-07-20",
+            "price": 3200,
+            "availableSpots": 20,
+            "description": "Discover Ecuador's vibrant culture and the unique wildlife of Galapagos."
+        },
+        {
+            "name": "Venetian Romance",
+            "location": "Italy",
+            "startDate": "2024-09-15",
+            "endDate": "2024-09-20",
+            "price": 1300,
+            "availableSpots": 25,
+            "description": "Experience the romantic canals and architecture of Venice."
+        },
+        {
+            "name": "Himalayan Trek",
+            "location": "Nepal",
+            "startDate": "2024-10-10",
+            "endDate": "2024-10-25",
+            "price": 2500,
+            "availableSpots": 10,
+            "description": "Challenge yourself with an unforgettable trek in the Himalayas."
+        },
+        {
+            "name": "Antarctic Cruise",
+            "location": "Antarctica",
+            "startDate": "2024-12-01",
+            "endDate": "2024-12-14",
+            "price": 7000,
+            "availableSpots": 8,
+            "description": "Journey to the coldest place on earth and witness penguins and glaciers."
+        },
+        {
+            "name": "Peruvian Andes Adventure",
+            "location": "Peru",
+            "startDate": "2024-05-15",
+            "endDate": "2024-05-25",
+            "price": 2100,
+            "availableSpots": 20,
+            "description": "Hike through the Andes and visit Machu Picchu."
+        },
+        {
+            "name": "Scandinavian Capitals",
+            "location": "Denmark, Sweden, Norway",
+            "startDate": "2024-06-05",
+            "endDate": "2024-06-12",
+            "price": 2600,
+            "availableSpots": 15,
+            "description": "Explore the cultural heritage of Scandinavia's capitals."
+        },
+        {
+            "name": "South Korean Highlights",
+            "location": "South Korea",
+            "startDate": "2024-09-01",
+            "endDate": "2024-09-10",
+            "price": 1500,
+            "availableSpots": 35,
+            "description": "Experience the vibrant culture and landscapes of South Korea."
+        },
+        {
+            "name": "Ireland Scenic Routes",
+            "location": "Ireland",
+            "startDate": "2024-08-01",
+            "endDate": "2024-08-08",
+            "price": 1600,
+            "availableSpots": 25,
+            "description": "Drive through Ireland’s scenic countryside and coastal areas."
+        },
+        {
+            "name": "Scottish Highlands",
+            "location": "Scotland",
+            "startDate": "2024-11-20",
+            "endDate": "2024-11-30",
+            "price": 2000,
+            "availableSpots": 10,
+            "description": "Take in the beauty of Scotland's highlands and lochs."
+        }
+    
+    
+]
